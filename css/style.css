@@ -156,6 +156,11 @@ header .contact{
   color: #fff;
   background-color: #74cfae;
   float: left;
+  transition: 0.3s;
+}
+
+.mail_button:hover{
+  color: #333;
 }
 
 /*---------------------------*/
