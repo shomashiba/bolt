@@ -5,29 +5,27 @@
 }
 
 body {
-  font-family: 'FontAwesome';
+  font-family: 'FontAwesome','Lato','Raleway';
   min-width: 1200px;
 }
 
 header{
   position: fixed;
-  top: 0px;
-  left: 0px;
   width: 100%;
   height: 60px;
   background-color: #fff;
+  z-index: 30;
 }
 
-.header_position{
-  position: relative;
+.header_inner{
+  max-width: 75%;
+  margin: 0 auto;
 }
 
 header .fa-bolt{
   margin: 15px 0;
   float: left;
   color: #4e4e4e;
-  position: absolute;
-  left: 100px;
 }
 
 header .contact{
@@ -37,15 +35,13 @@ header .contact{
   background-color: #74cfae;
   float: right;
   margin-top: 10px;
-  position: absolute;
-  left: 1000px
 }
 /*---------------------------*/
-.section1{
+.theme{
   background-color: #f2f2f2;
 }
 
-.section1 .main_theme{
+.theme .main_theme{
   font-size: 90px;
   font-weight: 700px;
   color: #74cfae;
@@ -53,7 +49,7 @@ header .contact{
   text-align: center;
 }
 
-.section1 .sub_theme{
+.theme .sub_theme{
   font-size: 30px;
   color: #c0c0c0;
   padding-bottom: 250px;
@@ -62,26 +58,28 @@ header .contact{
 
 /*---------------------------*/
 
-.section2{
+.green{
   background-color: #74cfae;
-  position: relative;
   height: 345px;
+  text-align: center;
 }
 
-.section2 .img_section2{
+.green_inner{
+  display: inline-block;
+}
+
+.green .img_green{
   margin-top: 50px;
+  margin-left: 100px;
   float: left;
-  position: absolute;
-  left: 150px;
 }
 
-.section2_right{
+.green_right{
   float: right;
-  position: absolute;
-  right: 60px;
+  padding-left: 20px;
 }
 
-.section2_title{
+.green_title{
   margin-top: 50px;
   font-size: 24px;
   color: #fff;
@@ -89,7 +87,7 @@ header .contact{
   text-align: center;
 }
 
-.section2_text{
+.green_text{
   font-size: 20px;
   color: #fff;
   width: 750px;
@@ -97,28 +95,28 @@ header .contact{
 }
 
 /*---------------------------*/
-.section3{
+.work{
   background-color: #f2f2f2;
 }
 
-.section3_title{
+.work_title{
   text-align: center;
   font-size: 24px;
   padding: 60px 0 40px 0;
   color: #4e4e4e;
 }
 
-.img_section3{
+.img_work{
   margin-left: 100px;
   opacity: 0.7;
   transition: 0.3s;
 }
 
-.img_section3:hover{
+.img_work:hover{
   opacity: 1.0;
 }
 
-.img_section3:first-child{
+.img_work:first-child{
   margin-left: 0px;
 }
 
@@ -130,24 +128,25 @@ header .contact{
   text-align: center;
 }
 
-.img_top .img_section3{
+.img_top .img_work{
   margin-bottom: 80px;
 }
 
-.img_bottom .img_section3{
+.img_bottom .img_work{
   margin-bottom: 90px;
 }
 
-.section3_bottom{
-  text-align: center;
+.work_bottom{
+  margin: 0 auto;
 }
 
-.section3_text{
-  margin: 0 90px 70px 150px;
-  width: 670px;
+.work_text{
+  margin: 0 90px 70px 300px;
+  width: 580px;
   float: left;
   font-size: 20px;
   color: #4e4e4e;
+  text-align: center;
 }
 
 .mail_button{
@@ -165,29 +164,31 @@ header .contact{
 
 /*---------------------------*/
 
-.section4{
+.skill{
   background-color: #4e4e4e;
   text-align: center;
+  width: 100%;
 }
 
-.section4_title{
+.skill_title{
   color: #fff;
   padding-top: 70px;
   font-size: 20px;
 }
 
-.main_section{
+.main_skill{
+  display: inline-block;
 }
 
 .caption{
   padding-left: 180px;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 100px;
   float: left;
 }
 
 .caption:first-child{
-  padding-left: 90px;
+  padding-left: 0px;
 }
 
 .caption-text{
@@ -198,40 +199,43 @@ header .contact{
 
 /*---------------------------*/
 
-.section5 .fab{
-  color: #74cfae;
+.main_sns{
+  background-color: #f2f2f2;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+}
 
+.sns_icon{
+  display: inline-block;
+}
+
+.main_sns .fab{
+  color: #74cfae;
   margin: 200px 0;
   float: left;
   size: 5;
   transition: 0.3s;
-  padding:40px 60px;
+  padding:40px 0;
+  width: 185px;
+  text-align: center;
 }
 
-.section5{
-  background-color: #f2f2f2;
-  position: relative;
-  height: 500px;
-}
-
-.section5_sns{
-  position: absolute;
-  left: 300px;
-}
-
-.section5 .fas{
+.main_sns .fas{
   color: #74cfae;
   margin: 200px 0;
   float: left;
   transition: 0.3s;
-  padding:40px 60px;
+  padding:40px 0;
+  width: 185px;
+  text-align: center;
 }
 
-.section5 .fab:hover{
+.main_sns .fab:hover{
   background-color: #fff;
 }
 
-.section5 .fas:hover{
+.main_sns .fas:hover{
   background-color: #fff;
 }
 
