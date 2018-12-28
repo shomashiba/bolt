@@ -40,6 +40,10 @@ a{
   text-decoration: none;
 }
 
+.hide_con{
+  display: none;
+}
+
 @media screen and (min-width:767px) {
   .contact{
   font-size: 12px;
