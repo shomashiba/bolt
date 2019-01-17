@@ -29,7 +29,6 @@ header .bolt_mark{
 
 img{
   vertical-align: top;
-  vertical-align: bottom;
 }
 
 main{
@@ -61,8 +60,6 @@ a{
 }
 
 @media screen and (max-width:766px) {
-
-
   .contact{
     content: none;
     display: none;
@@ -162,18 +159,13 @@ a{
   }
   .theme_inner{
     width: 97%;
-    padding: 0;
+    padding-top: 160px;
+    padding-bottom: 130px;
     display: inline-block;
 
   }
   .main_theme{
     font-size:80px;
-    margin-top: 160px;
-  }
-  .sub_theme{
-    margin-top: 20px;
-    margin-bottom: 130px;
-
   }
 }
 /*---------------------------*/
@@ -227,9 +219,7 @@ a{
   .green_right{
     float: none;
     margin: 0 auto;
-  }
-  .green_title{
-    margin-top: 20px;
+    padding-top: 20px;
   }
   .green_text{
     width: 90%;
@@ -319,9 +309,9 @@ a{
   }
   .img_work{
     margin: 0 auto;
-    width: 100%;
+
   }
-  .img_work:nth-child(4){
+  .img_work:nth-child(3n+4){
     margin-top:80px ;
   }
   .work_bottom{
@@ -423,6 +413,7 @@ a{
 
 @media screen and (max-width:1199px) {
   .main_sns_inner{
+    margin: 0 auto;
     width: 97%;
   }
 }
@@ -436,7 +427,7 @@ a{
   }
   .sns_logo{
     float: none;
-    width: 100%;
+    width: 97%;
   }
 }
 
