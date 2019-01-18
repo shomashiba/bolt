@@ -112,17 +112,22 @@ a{
     -webkit-transition: .35s ease-in-out;
     -moz-transition: .35s ease-in-out;
     transition: .35s ease-in-out;
+    padding-top: 5px;
 }
 
+
+
   .navToggle span:nth-child(1) {
-    top: -2px;
+    padding-top: 0;
   }
+  /*
   .navToggle span:nth-child(2) {
     top: 1px;
   }
   .navToggle span:nth-child(3) {
     top: 4px;
   }
+*/
 
   .hamburger{
     color: #f2f2f2;
@@ -420,10 +425,10 @@ a{
 
 @media screen and (max-width:766px) {
   .main_sns_inner{
-    padding: 50px 15px;
+    padding: 50px 0px;
   }
   .sns_icon{
-    width: 100%;
+    width: 97%;
   }
   .sns_logo{
     float: none;
@@ -462,6 +467,5 @@ a{
 @media screen and (max-width:1199px) {
   .footer_inner{
     width: 97%;
-    padding-right: 40px;
   }
 }
