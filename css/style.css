@@ -312,25 +312,27 @@ a{
   .work_inner{
     width: 97%;
   }
+  .work_inner .img_all{
+    width: 300px;
+    margin: 0 auto;
+  }
   .img_work{
     margin: 0 auto;
-
   }
   .img_work:nth-child(3n+4){
     margin-top:80px ;
   }
-  .work_bottom{
-    width: 300px;
-  }
+
   .work_text{
     float: none;
     width: 100%;
+    margin-bottom: 40px ;
   }
   .mail_button{
-    margin-top: 30px;
+
+    float: none;
   }
 }
-
 
 /*---------------------------*/
 
